@@ -1,0 +1,12 @@
+<h2>{{user.username}}'s Profile</h2>
+
+<h3>Saved Exercises:</h3>
+<ul>
+  {{#each user.Exercises}}
+    <li>
+      <p>Exercise Name: {{name}}</p>
+      <p>Target Area: {{bodyPart}}</p>
+      <p>Equipment Needed: {{equipment}}</p>
+      <p>Instructions: {{gifUrl}}</p>
+
+<script type="text/javascript" src="./js/homepage.js"></script>
